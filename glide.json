@@ -1,0 +1,36 @@
+{
+  "kind": "column",
+  "name": "Merge Inputs to JSON",
+  "description": "Takes multiple string inputs and formats them into the specified JSON string.",
+  "author": "Your Name <your_email@example.com>",
+  "params": [
+    {
+      "name": "dates",
+      "displayName": "Dates",
+      "type": "string"
+    },
+    {
+      "name": "id_bdm",
+      "displayName": "ID/BDM",
+      "type": "string"
+    },
+    {
+      "name": "id_assignment",
+      "displayName": "ID/Assignment",
+      "type": "string"
+    },
+    {
+      "name": "created_user_id",
+      "displayName": "Created/User ID",
+      "type": "string"
+    },
+    {
+      "name": "created_timestamp",
+      "displayName": "Created/Timestamp",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
